@@ -1,0 +1,34 @@
+### ✅ `.gitignore` 內容
+```gitignore
+# Python 相關
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虛擬環境
+venv/
+env/
+
+# 記錄檔與快取
+logs/
+*.log
+
+# YOLO 模型與權重
+*.pt
+runs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE 設定檔
+.vscode/
+.idea/
+*.swp
+```
+> 說明：
+> - `logs/` → 避免提交 Log 檔案  
+> - `runs/` → YOLO 訓練過程產生的檔案  
+> - `*.pt` → YOLO 訓練好的模型  
+> - `venv/` → 虛擬環境  
+

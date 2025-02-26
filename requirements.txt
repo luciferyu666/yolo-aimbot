@@ -1,0 +1,30 @@
+# 電腦視覺與 YOLO 相關
+ultralytics==8.1.0
+opencv-python==4.8.0.76
+mss==9.0.1
+numpy==1.24.3
+torch==2.0.0
+torchvision==0.15.1
+torchaudio==2.0.0
+
+# 滑鼠控制
+pyautogui==0.9.54
+pynput==1.7.6
+
+# 串口通訊（Arduino）
+pyserial==3.5
+
+# GUI 介面
+PyQt5==5.15.9
+
+# 快捷鍵監聽
+keyboard==0.13.5
+pyHook (Windows)  # Windows 需要這個
+pynput (Linux/macOS)  # Linux/macOS 需要這個
+
+# 記錄日誌
+logging (內建)  
+
+# 其他工具
+pygetwindow==0.0.9
+pyautogui==0.9.54
