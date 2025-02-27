@@ -41,3 +41,5 @@
 ### 📌 1️⃣ 安裝依賴
 
 pip install -r requirements.txt
+
+![alt text](image.png)
